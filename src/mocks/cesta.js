@@ -13,9 +13,9 @@ const cesta = {
   detalhes: {
     nome: "Cesta de Verduras",
     logoFazenda: logo,
-    nomeFazenda: "Jenny Jack Farm",
-    descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
-    preco: "R$ 40,00",
+    nomeFazenda: "Happy farm",
+    descricao: "Uma cesta com produtos orgânicos selecionados cuidadosamente da fazenda direto para sua cozinha",
+    preco: "R$ 80,00",
     botao: "Comprar",
   },
   itens: {
@@ -24,10 +24,6 @@ const cesta = {
       {
         nome: "Tomate",
         imagem: tomate,
-      },
-      {
-        nome: "Brócolis",
-        imagem: brocolis,
       },
       {
         nome: "Batata",
@@ -40,6 +36,10 @@ const cesta = {
       {
         nome: "Abóbora",
         imagem: abobora,
+      },
+      {
+        nome: "Brócolis",
+        imagem: brocolis,
       }
     ]
   }
